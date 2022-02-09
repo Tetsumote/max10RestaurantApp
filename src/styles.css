@@ -1,4 +1,5 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(90, 90, 90);
 }

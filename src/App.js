@@ -1,11 +1,16 @@
 import "./styles.css";
 
+import Header from "./components/Layout/Header";
+import { Fragment } from "react";
+import Meals from "./components/Meals/Meals";
+
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      sdfs
-    </div>
+    <Fragment>
+      <Header />
+      <main>
+        <Meals />
+      </main>
+    </Fragment>
   );
 }
